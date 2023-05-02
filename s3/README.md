@@ -9,4 +9,4 @@
 
 ## Running the examples
 
-[Hello Amazon S3](/hello/hello.go) - This example retrieves a list of your Amazon S3 buckets in the region configured in the shared config file, `~/.aws/config`.
+[Hello Amazon S3](s3/hello/hello.go) - This example retrieves a list of your Amazon S3 buckets in the region configured in the shared config file, `~/.aws/config`.
