@@ -14,3 +14,7 @@ aws lambda invoke --function-name your-function-name --payload '{"example":"exam
 ```
 aws lambda list-functions
 ```
+### 3. To get arn of the trigger event -rule
+```
+aws events list-rules |jq -r '.Rules[] | select(.Name == "RuleName") | .Arn'
+```
